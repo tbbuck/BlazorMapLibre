@@ -7,7 +7,7 @@ This is a Blazor library that wraps the [Mapbox GL JS](https://www.mapbox.com/ma
 ### Prerequisites & Installation 
 ---
 - A Mapbox access token is required to view the map. You can acquire one at https://account.mapbox.com/access-tokens/. 
-- Your application needs to target .NET 5. 
+- Your application needs to target .NET 7. 
 
 ### Usage 
 ---
