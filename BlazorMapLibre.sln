@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor.MapLibre", "Blazor.MapLibre\Blazor.MapLibre.csproj", "{AAB466D4-3EE6-484B-8C80-FA5F3357A7E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.MapLibre.Examples.Server", "Blazor.Mapbox.Examples\Server\Blazor.MapLibre.Examples.Server\Blazor.MapLibre.Examples.Server.csproj", "{4768AF98-05EB-4E7B-BBAB-95B959F50015}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.MapLibre.Examples.Server", "Blazor.MapLibre.Examples\Server\Blazor.MapLibre.Examples.Server\Blazor.MapLibre.Examples.Server.csproj", "{4768AF98-05EB-4E7B-BBAB-95B959F50015}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{AEBDAA37-F6D7-4661-BB9A-F1A5B1E96F27}"
 EndProject
