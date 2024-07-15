@@ -1,0 +1,20 @@
+﻿@page "/"
+@using Blazor.MapLibre.Models
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<MapLibreMap @ref="@_Map" Options="@_Options"></MapLibreMap>
+
+@code {
+
+    private MapLibreMap _Map;
+    private readonly Options _Options = new Options()
+    {
+        Style = Options.DefaultStyles.Streets,
+        Center = new LngLat(0.0m, 51.5m),
+        Zoom = 10
+    };
+
+}
