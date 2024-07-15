@@ -378,7 +378,14 @@ namespace Blazor.MapLibre
 
             if (_Module != null)
             {
-                await _Module.DisposeAsync();
+                try
+                {
+                    await _Module.DisposeAsync();
+                }
+                catch (JSDisconnectedException)
+                {
+                    //MS say that we should swallow this exception
+                }
             }
         }
 
